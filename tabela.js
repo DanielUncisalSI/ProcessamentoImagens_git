@@ -3,10 +3,10 @@
   
     
 function criarTabela() {
-    let corFundo = document.getElementById("corFundo").value;;
+    var corFundo = document.getElementById("corFundo").value;;
     var largura = document.getElementById("largura").value;
-    let altura = document.getElementById("altura").value;
-    let tbl     =  document.createElement("table");
+    var altura = document.getElementById("altura").value;
+    var tbl     =  document.createElement("table");
 
     if(largura<30 || altura<25){
         largura = 30;
