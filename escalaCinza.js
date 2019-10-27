@@ -22,7 +22,6 @@
 function escalaDeCinza(){
     let largura = document.getElementById("largura").value;
     let numCor = 1;
-
     let tr = document.querySelectorAll('tr');
     tr.forEach(l => {
         let tamanho = tr.length;
